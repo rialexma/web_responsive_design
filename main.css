@@ -17,11 +17,14 @@ li a {
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
+    
 }
 
-li a:hover {
-    background-color: #111;
+a.options{
+    transform: translate(0px, 50px);
 }
+
+
 
 .logo {
     font-size: 35px;
@@ -36,6 +39,7 @@ li a:hover {
 
 .nav-search{
     float: right;
+    transform: translate(0px, 10px);
 }
 
 
@@ -69,5 +73,18 @@ h1{
 }
 
 .lorem h2{
-    font-size: 50px;
+    font-size: 35px;
 }
+
+button{
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+    padding:10px 50px;
+    background-color: black;
+}
+
+p.item{
+    font-size: 40px;
+}
+
