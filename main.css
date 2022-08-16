@@ -3,11 +3,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 li {
     float: left;
+
 }
 
 li a {
@@ -23,6 +24,50 @@ li a:hover {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 35px;
     font-family: fantasy;
+    float: rigth;
+    
+}
+
+.nav-logo{
+    float: left;
+}
+
+.nav-search{
+    float: right;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.tagline{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
+
+.customer-testimonials{
+    color: black;
+    text-align: center;
+}
+
+.customer-testimonials p{
+    color: black;
+    
+    text-align: center;
+}
+
+.lorem{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+.lorem h2{
+    font-size: 50px;
 }
