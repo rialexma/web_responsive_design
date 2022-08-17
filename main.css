@@ -8,7 +8,6 @@ ul {
 
 li {
     float: left;
-
 }
 
 li a {
@@ -16,19 +15,16 @@ li a {
     color: darkgrey;
     text-align: center;
     padding: 14px 25px;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 a.options{
-    transform: translate(0px, 50px);
+    transform: translate(100px, 10px);
 }
-
-
 
 .logo {
     font-size: 35px;
-    font-family: fantasy;
+    font-family:Impact;
     float: rigth;
     
 }
@@ -41,8 +37,6 @@ a.options{
     float: right;
     transform: translate(0px, 10px);
 }
-
-
 
 h1{
     text-align: center;
@@ -86,5 +80,65 @@ button{
 
 p.item{
     font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.square {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    float: right;
+    transform: translate(0px,-175px);
+  }
+
+.list_left{
+    text-align: right;
+    transform: translate(-25px,75px);
+}
+
+button{
+    font-family:'Gill Sans';
+    font-size: medium;
+}
+
+.square1 {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    transform: translate(0,-200px);
+  }
+
+  p.item1{
+    font-size: 40px;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translate(405px);
+  }
+
+b1{
+    font-family:'Gill Sans';
+    font-size: medium;
+    transform: translate(-50px,50px);
+}
+
+.footer{
+    background-color: black;
+    margin-top: 250px;
+    padding: 5px;
+    float: initial;
+}
+
+.header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    transform: translate(220px);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.end{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    transform: translate(15px);
+}
